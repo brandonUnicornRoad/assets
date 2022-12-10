@@ -614,7 +614,6 @@
   };
 })(jQuery);
 
-$(function () {
   var outContainers = {
     company: $(".search-content-items.company"),
     people: $(".search-content-items.people"),
@@ -821,4 +820,3 @@ $(function () {
     perPage: 10,
     renderResultsFunction: customResultsRenderer
   });
-});
