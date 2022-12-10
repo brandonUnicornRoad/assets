@@ -762,7 +762,7 @@
       });
     });
     var segmentListTemplate =
-      '<div class="search-content-item-items"><div class="search-content-item-label">{label}</div></div>';
+      '<div class="search-content-items"><div class="search-content-item-label">{label}</div></div>';
     var segmentsList = {
       companies: $(segmentListTemplate.replace("{label}", "Companies")),
       people: $(segmentListTemplate.replace("{label}", "People")),
