@@ -655,7 +655,7 @@
       previousPage = currentPage - 1;
       pages =
         pages +
-        '<a href="#" class="page" data-hash="true" data-page="' +
+        '<a href="#" class="page-previous" data-hash="true" data-page="' +
         previousPage +
         '">&laquo; previous</a>';
     }
@@ -687,7 +687,7 @@
       nextPage = currentPage + 1;
       pages =
         pages +
-        '<a href="#" class="page" data-hash="true" data-page="' +
+        '<a href="#" class="page-next" data-hash="true" data-page="' +
         nextPage +
         '">next &raquo;</a>';
     }
