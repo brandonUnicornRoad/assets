@@ -772,11 +772,11 @@
 
     function renderResult(result) {
       return $(
-        '<div class="search-content-item">"<a href="' +
+        '<div class="search-content-item"><a href="' +
           result["url"] +
           '" class="nav-search-link"><h5 class="search-content-item-heading">' +
           result["title"] +
-          "</h5></a>'</div>"
+          "</h5></a></div>"
       );
     }
 
