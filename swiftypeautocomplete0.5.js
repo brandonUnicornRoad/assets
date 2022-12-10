@@ -669,7 +669,7 @@
       ) {
         pages +=
           '<li><a href="#" class="page' +
-          (i == currentPage ? "current" : "") +
+          (i == currentPage ? " current" : "") +
           '" data-hash="true" data-page="' +
           i +
           '">' +
