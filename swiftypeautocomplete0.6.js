@@ -803,9 +803,17 @@
       page: ["url", "title", "category"]
     },
     searchFields: {
-      page: ["url", "title", "category"]
+      page: [
+        "title",
+        "category",
+        "tag",
+        "tags",
+        "source",
+        "press",
+        "author",
+      ],
     },
-    engineKey: "ceRrT2X3oK1zbMyywxyT",
+    engineKey: "xmRK9piyPpjS1NAYtrWR",
     perPage: 10
   });
   $("#input-filter-main").swiftypeSearch({
@@ -814,9 +822,17 @@
       page: ["url", "title", "category"]
     },
     searchFields: {
-      page: ["url", "title", "category"]
+      page: [
+        "title",
+        "category",
+        "tag",
+        "tags",
+        "source",
+        "press",
+        "author",
+      ],
     },
-    engineKey: "ceRrT2X3oK1zbMyywxyT",
+    engineKey: "xmRK9piyPpjS1NAYtrWR",
     perPage: 10,
     renderResultsFunction: customResultsRenderer
   });
